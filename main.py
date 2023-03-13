@@ -27,6 +27,7 @@ def run(input_data, solver_params, extra_arguments):
             otras.append(x)
     otras.append(r)
     result={}
-    result['Output']=random.choice(otras)  
+    result['Labels']=random.choice(otras)
+    result['Length']=len(result['Labels']
 
     return result
